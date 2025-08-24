@@ -26,7 +26,7 @@ const Slider = () => {
         {images.map((image, i) => (
           <img
             key={i}
-            src={image}
+            src={process.env.PUBLIC_URL + image}
             alt={`Slide ${i + 1}`}
             className={`slide-img ${i === index ? 'actives' : ''}`}
           />

@@ -17,7 +17,7 @@ class Products extends Component{
     }
     mapping(x){
         const items=x.map(item => <Cad 
-            image={item.image}
+            image={process.env.PUBLIC_URL + item.image}
             description={item.description}
             price={item.price}
             ref={item.ref}
