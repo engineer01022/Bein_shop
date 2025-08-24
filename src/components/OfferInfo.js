@@ -1,0 +1,21 @@
+const OfferInfo=[
+    { image :"tz-3mth.png",
+        description: " اشتراك باقة قمة ٣ اشهر عربي ",
+        price:'1500'},
+        { image :"tz-6mth.png",
+            description: "اشتراك باقة قمة ٦ اشهر عربي ",
+            price:'1500'},
+             { image :"tz-1yr.png",
+                description: "اشتراك باقة قمة ١ سنه عربي ",
+                price:'1500'}, 
+                { image :"tz-3mth.png",
+                    description: "اشتراك باقة قمة ٣ اشهر خليجي ",
+                    price:'1500'},
+                    { image :"tz-6mth.png",
+                        description: "اشتراك باقة قمة ٦ اشهر خليجي ",
+                        price:'1500'},
+                         { image :"tz-1yr.png",
+                            description: "اشتراك باقة قمة ١ سنه خليجي ",
+                            price:'1500'}, 
+]
+export default OfferInfo;
