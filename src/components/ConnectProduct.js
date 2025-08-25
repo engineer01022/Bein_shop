@@ -15,7 +15,7 @@ class ConnectProduct extends Component{
     }
     mapping(x){
         const items=x.map(item => <Cad 
-            image={process.env.PUBLIC_URL + item.image}
+            image={item.image}
             description={item.description}
             price={item.price}
             ref={item.ref}
@@ -47,7 +47,7 @@ class ConnectProduct extends Component{
 </p>
       </div>
     <div className="photo">
-      <img className="imigo" src={process.env.PUBLIC_URL + "qimma.png" }/>
+      <img className="imigo" src={process.env.PUBLIC_URL +'qimma.png'}/>
     </div>
     </div> 
          
@@ -78,7 +78,7 @@ class ConnectProduct extends Component{
         </p>
       </div>
     <div className="photo">
-      <img className="imigo" src={process.env.PUBLIC_URL + "tamiouz.png" }/>
+      <img className="imigo" src={process.env.PUBLIC_URL +'tamiouz.png'}/>
     </div>
     </div> 
 
