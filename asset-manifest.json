@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Bein_shop/static/css/main.aa71fa5d.css",
-    "main.js": "/Bein_shop/static/js/main.45d8a17d.js",
+    "main.js": "/Bein_shop/static/js/main.3d5180c8.js",
     "index.html": "/Bein_shop/index.html",
     "main.aa71fa5d.css.map": "/Bein_shop/static/css/main.aa71fa5d.css.map",
-    "main.45d8a17d.js.map": "/Bein_shop/static/js/main.45d8a17d.js.map"
+    "main.3d5180c8.js.map": "/Bein_shop/static/js/main.3d5180c8.js.map"
   },
   "entrypoints": [
     "static/css/main.aa71fa5d.css",
-    "static/js/main.45d8a17d.js"
+    "static/js/main.3d5180c8.js"
   ]
 }
