@@ -47,7 +47,7 @@ class ConnectProduct extends Component{
 </p>
       </div>
     <div className="photo">
-      <img className="imigo" src={process.env.PUBLIC_URL +'qimma.png'}/>
+      <img className="imigo" src={process.env.PUBLIC_URL +'/qimma.png'}/>
     </div>
     </div> 
          
@@ -78,7 +78,7 @@ class ConnectProduct extends Component{
         </p>
       </div>
     <div className="photo">
-      <img className="imigo" src={process.env.PUBLIC_URL +'tamiouz.png'}/>
+      <img className="imigo" src={process.env.PUBLIC_URL +'/tamiouz.png'}/>
     </div>
     </div> 
 

@@ -12,7 +12,7 @@ const Cad = ({ image, description, price ,ref}) => {
         <h5 className="card-title">{description}</h5>
         
         {/* Product Price */}
-        <p className="card-text">{price}  <img style={{height:'20px', width:'20px'}} src={process.env.PUBLIC_URL + 'Saudi_Riyal_Symbol-1.png'} className="card-img-top" alt="Product" />
+        <p className="card-text">{price}  <img style={{height:'20px', width:'20px'}} src={process.env.PUBLIC_URL +'/'+'Saudi_Riyal_Symbol-1.png'} className="card-img-top" alt="Product" />
         </p>
         {/* Shop Icon (Add to cart) */}
       
